@@ -1,0 +1,27 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  color: #696a39;
+  background: #c3cb21;
+}
+
+.snake-part, .apple {
+  position: absolute;
+}
+.snake-part {
+  background: #696a39;
+  border-radius: 25%;
+}
+.apple {
+  border: 4px solid #696a39;
+  border-radius: 50%;
+}
+.game-board-container {
+  width: 100%;
+  height: 80vh;
+}
+.game-board {
+  position: relative;
+  display: inline-block;
+  border: solid #696a39;
+}
